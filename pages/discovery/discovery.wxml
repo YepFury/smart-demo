@@ -1,0 +1,24 @@
+<swiper indicator-dots="{{indicatorDots}}" indicator-active-color="{{indicatorActiveColor}}" circular="{{circular}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="section">
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item">
+     <view><image src="../../static/images/icons/menu.png" /></view>
+      <text>分类查询</text>
+    </view>
+     <view class="flex-item">
+      <view>{{currentDate}}</view>
+      <text>每日电影卡片</text>
+    </view>
+     <view class="flex-item">
+     <view><image src="../../static/images/icons/vedio.png" /></view>
+      <text>影院热映</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/discovery/discovery",
+    "pages/movie/movie",
+    "pages/ddd"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "tab",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#132f00",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "text": "发现",
+        "pagePath": "pages/discovery/discovery",
+        "selectedIconPath": "static/images/icons/discorvey_select.png",
+        "iconPath": "static/images/icons/discorvey.png"
+      },
+      {
+        "text": "电影",
+        "pagePath": "pages/movie/movie",
+        "selectedIconPath": "static/images/icons/rest-ss.png",
+        "iconPath": "static/images/icons/rest.png"
+      }
+    ]
+  }
+}
